@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		294DE1602796A3DE0065B39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 294DE15F2796A3DE0065B39A /* AppDelegate.m */; };
-		294DE1632796A3DE0065B39A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 294DE1622796A3DE0065B39A /* SceneDelegate.m */; };
 		294DE1662796A3DE0065B39A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294DE1652796A3DE0065B39A /* ViewController.m */; };
 		294DE1692796A3DE0065B39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294DE1672796A3DE0065B39A /* Main.storyboard */; };
 		294DE16B2796A3E10065B39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294DE16A2796A3E10065B39A /* Assets.xcassets */; };
@@ -21,8 +20,6 @@
 		294DE15B2796A3DE0065B39A /* FKProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		294DE15E2796A3DE0065B39A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		294DE15F2796A3DE0065B39A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		294DE1612796A3DE0065B39A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		294DE1622796A3DE0065B39A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		294DE1642796A3DE0065B39A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		294DE1652796A3DE0065B39A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		294DE1682796A3DE0065B39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,8 +64,6 @@
 				294DE17A2796A8A30065B39A /* FKCircleProgressView */,
 				294DE15E2796A3DE0065B39A /* AppDelegate.h */,
 				294DE15F2796A3DE0065B39A /* AppDelegate.m */,
-				294DE1612796A3DE0065B39A /* SceneDelegate.h */,
-				294DE1622796A3DE0065B39A /* SceneDelegate.m */,
 				294DE1642796A3DE0065B39A /* ViewController.h */,
 				294DE1652796A3DE0065B39A /* ViewController.m */,
 				294DE1672796A3DE0065B39A /* Main.storyboard */,
@@ -163,7 +158,6 @@
 				294DE1602796A3DE0065B39A /* AppDelegate.m in Sources */,
 				294DE1792796A3F30065B39A /* FKCircleProgressView.m in Sources */,
 				294DE1712796A3E10065B39A /* main.m in Sources */,
-				294DE1632796A3DE0065B39A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -293,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -316,7 +310,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,7 +338,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
