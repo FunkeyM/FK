@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "FKProgress"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "FKProgress is a test demo."
 
   # This description is used to generate tags and improve search results.
@@ -85,9 +85,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "FKCircleProgressView/**/*.{h,m}"
-  spec.exclude_files = "FKProgress/Exclude"
+  # spec.exclude_files = "FKProgress/Exclude"
 
-  spec.public_header_files = "FKCircleProgressView/**/*.h"
+  # spec.public_header_files = "FKCircleProgressView/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
